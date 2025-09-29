@@ -1,24 +1,22 @@
 :root {
   /* brand */
-  --brand700: #B34C00;
-  --brand600: #D95C00;
-  --brand500: #FF6B00;
-  --brand400: #FFA251;
-  --brand300: #FFC48C;
-  --brand200: #FFE0BF;
-  --brand100: #FFF5EB;
+  --brand700: #3E0E14;
+  --brand600: #5C1620;
+  --brand500: #7A1F2A;
+  --brand400: #A94A55;
+  --brand300: #C97981;
+  --brand200: #DFA7AD;
+  --brand100: #F0D1D5;
 
 
   /* grayscale */
-  --grayWhite: #FFFFFF;
-  --grayBlack: #000000;
-  --gray100: #F9F9F9;
-  --gray200: #EEEEEE;
-  --gray300: #CCCCCC;
-  --gray400: #767676;
-  --gray500: #555555;
-  --gray600: #333333;
-  --gray700: #212121;
+  --gray100: #FFFFFF;
+  --gray200: #FAFAFA;
+  --gray300: #EDEDED;
+  --gray400: #CCCCCC;
+  --gray500: #767676;
+  --gray600: #555555;
+  --gray700: #333333;
 
   /* font size */
   --title-important: 40px;

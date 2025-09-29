@@ -216,7 +216,7 @@
 .people-button-prev,
 .trend-button-prev,
 .data-button-prev {
-  left: 8px;
+  left: 16px !important;
 }
 
 .spotlight-button-next,
@@ -224,7 +224,11 @@
 .people-button-next,
 .trend-button-next,
 .data-button-next {
-  right: 8px;
+  right: 16px !important;
+}
+
+.swiper-navigation-icon {
+  display: none;
 }
 
 /* =====================

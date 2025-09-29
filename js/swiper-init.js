@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const contents = [
     {
       sectionName: "스포트라이트",
-      theme: "방송영상콘텐츠와 다양성 확대",
-      item: "방송영상콘텐츠의 다양성, 어디까지 왔는가",
+      theme: "K-방송영상콘텐츠의 글로벌 경쟁력 강화",
+      item: "K-방송영상콘텐츠의 새로운 시대를 열다:<br>‘성장통'을 넘어서 ‘콘텐츠와 플랫폼이 상생하는 미디어 생태계’로",
       img: "./img/manuscript1/banner.png",
       imgMobile: "./img/manuscript1/banner-m.png",
       bgPosition: "center center",
@@ -79,8 +79,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   new Swiper(".main-banner-swiper", {
-    loop: true,
-    autoplay: { delay: 3000 },
+    // loop: true,
+    // autoplay: { delay: 3000 },
     pagination: {
       el: ".main-banner-swiper .swiper-pagination",
       clickable: true,
@@ -110,11 +110,11 @@ document.addEventListener("DOMContentLoaded", () => {
         spaceBetween: 16,
         slideToClickedSlide: false,
         grabCursor: true,
-        loop: slideCount >= 3,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
+        // loop: slideCount >= 3,
+        // autoplay: {
+        //   delay: 3000,
+        //   disableOnInteraction: false,
+        // },
         navigation: {
           nextEl,
           prevEl,
