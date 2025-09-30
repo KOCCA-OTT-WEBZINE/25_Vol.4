@@ -33,7 +33,6 @@
 
   /* spacing */
   --content-spacing: 120px;
-  --footer-spacing: 240px;
 }
 
 @media screen and (max-width: 1440px) {

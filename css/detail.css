@@ -4,6 +4,13 @@
   font-weight: 700;
 }
 
+sup {
+  vertical-align: super;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: var(--brand500);
+}
+
 /* =====================
    Detail Styles
 ===================== */
@@ -110,7 +117,7 @@
 .main-content {
   max-width: 880px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: var(--content-spacing) 40px;
 }
 
 .sub-heading {
@@ -148,7 +155,7 @@
   }
 
   .main-content {
-    padding: 0 20px;
+    padding: var(--content-spacing) 20px;
   }
 
   .sub-heading {
@@ -752,9 +759,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: var(--gray100);
+  background-color: var(--gray200);
   color: var(--gray700);
-  margin-top: var(--footer-spacing);
+  margin-top:120px;
 }
 
 .first-nav {
@@ -777,7 +784,7 @@
 .post-nav-div {
   width: 1px;
   height: 100px;
-  background: var(--gray300);
+  background: var(--gray400);
 }
 
 .post-nav.prev {
