@@ -188,7 +188,7 @@ sup {
 .datapoint-lead-block {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
   text-align: justify;
   word-break: break-all;
   font-size: var(--text-lead);
@@ -199,8 +199,9 @@ sup {
   background-color: var(--brand500);
   color: white;
   width: fit-content;
-  padding: 0 16px;
-  line-height: 1.8;
+  padding: 2px 12px;
+  line-height: 1.6;
+  border-radius: 4px;
 }
 
 .datapoint-lead-paragraphs {
