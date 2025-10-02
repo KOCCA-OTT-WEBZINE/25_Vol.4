@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       sectionName: "피플 인사이트",
       theme: "방송영상콘텐츠 다양성을 실천하는 제작자를 만나다!",
-      item: "EBS <세상을 비집고> 최복희 PD<br>tvN <미지의 서울> 장신애 CP",
+      item: "이엘TV·스튜디오잔치 백헌석 대표<br>스튜디오모닥 김인식 PD",
       img: "./img/manuscript5/banner.png",
       imgMobile: "./img/manuscript5/banner-m.png",
       bgPosition: "right center",
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       sectionName: "글로벌 마켓 리포트",
       theme: "",
-      item: "모두가 팬덤을 원한다:<br>영상콘텐츠 플랫폼 기업들의 팬 전략",
+      item: "콘텐츠로 글로벌 일류(日流) 꿈꾸는 일본, 새로운 ‘쿨 재팬’ 전략",
       img: "./img/manuscript7/banner.png",
       imgMobile: "./img/manuscript7/banner-m.png",
       bgPosition: "right center",
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       sectionName: "트렌드 하이라이트",
       theme: "",
-      item: "사회를 바꾸는 관점의 전환, 글로벌 다양성 포맷 소개",
+      item: "생성형 AI 시대, 창작의 경계를 묻다:<br>「생성형 AI 활용 저작물의 저작권 등록 안내서」 내용과 의미",
       img: "./img/manuscript10/banner.png",
       imgMobile: "./img/manuscript10/banner-m.png",
       bgPosition: "center top",
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       sectionName: "데이터 포인트",
       theme: "",
-      item: "국내 방송 드라마 슬롯 변화와 장르별 시청률 현황",
+      item: "글로벌 OTT 플랫폼의 2024 애뉴얼 리포트 분석",
       img: "./img/manuscript13/banner.png",
       imgMobile: "./img/manuscript13/banner-m.png",
       bgPosition: "left center",
@@ -79,8 +79,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   new Swiper(".main-banner-swiper", {
-    // loop: true,
-    // autoplay: { delay: 3000 },
+    loop: true,
+    autoplay: { delay: 3000 },
     pagination: {
       el: ".main-banner-swiper .swiper-pagination",
       clickable: true,
@@ -110,11 +110,11 @@ document.addEventListener("DOMContentLoaded", () => {
         spaceBetween: 16,
         slideToClickedSlide: false,
         grabCursor: true,
-        // loop: slideCount >= 3,
-        // autoplay: {
-        //   delay: 3000,
-        //   disableOnInteraction: false,
-        // },
+        loop: slideCount >= 3,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
         navigation: {
           nextEl,
           prevEl,
