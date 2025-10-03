@@ -1,65 +1,65 @@
 const spotlightItem = {
   0: {
     title: "K-방송영상콘텐츠의 새로운 시대를 열다: ‘성장통'을 넘어서 ‘콘텐츠와 플랫폼이 상생하는 미디어 생태계’로",
-    author: { name: "박채은", affiliation: "독립미디어연구소 공동대표" },
+    author: { name: "강재원, 박성호", affiliation: "동국대학교 교수, MBC플러스 부국장" },
   },
   1: {
-    title: "재현과 참여의 확장: 플랫폼 시대에도 다양성이 필요한 이유",
-    author: { name: "박채은", affiliation: "독립미디어연구소 공동대표" },
+    title: "생존 전략인가 전략적 동맹인가, 국제 공동제작 2.0",
+    author: { name: "방연주", affiliation: "대중문화평론가" },
   },
   2: {
-    title: "K-영상콘텐츠에 문화 감수성을 담는 4가지 방법",
-    author: { name: "이재원", affiliation: "성균관대학교 컬처앤테크놀로지융합전공 초빙교수" },
+    title: "국제 공동제작 인센티브와 K-콘텐츠의 미래",
+    author: { name: "박세진", affiliation: "한양대학교 미디어학과 부교수" },
   },
   3: {
-    title: "방송영상콘텐츠의 다양성 확장, 기회인가 위기인가",
-    author: { name: "임정수", affiliation: "서울여자대학교 언론영상학부 교수" },
+    title: "글로벌 유통 경쟁력 강화를 위한 플랫폼 전략: OTT와 FAST를 중심으로",
+    author: { name: "김종원", affiliation: "제레미레터 대표" },
   },
 };
 
 const globalItem = {
   0: {
-    title: "모두가 팬덤을 원한다: 영상콘텐츠 플랫폼 기업들의 팬 전략",
-    author: { name: "차우진", affiliation: "문화평론가" },
+    title: "콘텐츠로 글로벌 일류(日流) 꿈꾸는 일본, 새로운 ‘쿨 재팬’ 전략",
+    author: { name: "김영덕", affiliation: "인천문화재단 대표" },
   },
   1: {
-    title: "글로벌 시장으로 나아가는 동남아시아 영상콘텐츠",
-    author: { name: "부경환ㅣ", affiliation: "서울대학교 아시아언어문명학부 강사" },
+    title: "영상콘텐츠의 글로벌 유통 시대, 더빙과 타이틀 각색을 통한 현지화 전략",
+    author: { name: "한영주", affiliation: "성균관대학교 인터랙션사이언스연구소 선임연구원" },
   },
   2: {
-    title: "「영국의 현대 산업 전략」의 특징과 의미",
-    author: { name: "정윤경", affiliation: "순천향대학교 미디어커뮤니케이션학과 교수" },
+    title: "K-콘텐츠, 아시아를 넘어 중동으로",
+    author: { name: "김수완", affiliation: "한국외국어대학교 융합인재대학 중동이슬람 전략모듈 교수" },
   },
 };
 
 const peopleItem = {
   0: {
-    title: "세상에 대한 관심으로 다양성을 이야기하다",
-    author: { name: "최복희", affiliation: "독립PD" },
+    title: "국제 공동제작, 한국 콘텐츠의 가치를 한 단계 올려주다",
+    author: { name: "백헌석", affiliation: "이엘TV·스튜디오잔치 대표" },
   },
   1: {
-    title: "새로운 시도를 통해 드라마의 다양성 확장을 꿈꾸다",
-    author: { name: "장신애", affiliation: "스튜디오드래곤 CP" },
+    title: "서로 다른 문화의 차이를 콘텐츠로 녹여내다",
+    author: { name: "김인식", affiliation: "스튜디오모닥 PD" },
   },
 };
 
 const trendItem = {
   0: {
-    title: "사회를 바꾸는 관점의 전환, 글로벌 다양성 포맷 소개",
+    title: "생성형 AI 시대, 창작의 경계를 묻다: 「생성형 AI 활용 저작물의 저작권 등록 안내서」 내용과 의미",
+    author: { name: "김현숙", affiliation: "디지털지식재산연구소 소장" },
   },
   1: {
-    title: "하반기 국내 OTT 시장 전망: 쿠팡플레이와 티빙의 제휴 멤버십과 스포츠 콘텐츠 전략 양상",
-    author: { name: "김규연", affiliation: "미래에셋증권 리서치센터 연구원" },
+    title: "OTT 예능, 드라마 넘어 새 판 짠다",
+    author: { name: "권혜미", affiliation: "전자신문 기자" },
   },
   2: {
-    title: "&lt;케이팝 데몬 헌터스&gt;로 본 K-컬처의 변주와 확장 가능성",
-    author: { name: "윤현정", affiliation: "강남대학교 문화콘텐츠학과 조교수" },
+    title: "K-콘텐츠 축제의 장, ‘2025 국제방송영상마켓(BCWW)’를 다녀오다!",
   },
 };
 
 const dataPointItem = {
   0: {
-    title: "국내 방송 드라마 슬롯 변화와 장르별 시청률 현황",
+    title: "글로벌 OTT 플랫폼의 2024 애뉴얼 리포트 분석",
   },
   1: {
     title: "글로벌 권역별 동향 분석: 2025년 상반기 넷플릭스 K-콘텐츠 인기 순위",
