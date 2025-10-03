@@ -892,7 +892,7 @@ sup {
 /* =====================
    Top Button
 ===================== */
-.top-button {
+.anchor-button {
   position: fixed;
   bottom: 60px;
   right: 60px;
@@ -905,12 +905,12 @@ sup {
   z-index: 9999;
 }
 
-.top-button.show {
+.anchor-button.show {
   opacity: 1;
   pointer-events: auto;
 }
 
-.top-button-inner {
+.anchor-button-inner {
   width: 48px;
   height: 48px;
   background-color: var(--brand500);
@@ -920,29 +920,29 @@ sup {
   justify-content: center;
 }
 
-.top-button-inner img {
+.anchor-button-inner img {
   width: 24px;
 }
 
 @media (max-width: 1280px) {
-  .top-button {
+  .anchor-button {
     bottom: 40px;
     right: 40px;
   }
 }
 
 @media (max-width: 768px) {
-  .top-button {
+  .anchor-button {
     bottom: 20px;
     right: 20px;
   }
 
-  .top-button-inner {
+  .anchor-button-inner {
     width: 40px;
     height: 40px;
   }
 
-  .top-button-inner img {
+  .anchor-button-inner img {
     width: 20px;
   }
 }

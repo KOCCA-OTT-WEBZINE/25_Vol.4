@@ -20,18 +20,18 @@ function updateProgressBar() {
 
 window.addEventListener("scroll", updateProgressBar);
 
-// Top Button
-function handleTopButtonVisibility() {
+// anchorButton
+function handleAnchorButtonVisibility() {
   const scrollY = window.scrollY || window.pageYOffset;
   const windowHeight = window.innerHeight;
   const documentHeight = document.documentElement.scrollHeight;
   const distanceToBottom = documentHeight - (scrollY + windowHeight);
 
-  const topButton = document.getElementById("top-button");
+  const anchorButton = document.getElementById("anchor-button");
   if (scrollY > 200 && distanceToBottom > 200) {
-    topButton?.classList.add("show");
+    anchorButton?.classList.add("show");
   } else {
-    topButton?.classList.remove("show");
+    anchorButton?.classList.remove("show");
   }
 }
 
@@ -39,4 +39,8 @@ function scrollToTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-window.addEventListener("scroll", handleTopButtonVisibility);
+function scrollToBottom() {
+  window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+}
+
+window.addEventListener("scroll", handleAnchorButtonVisibility);
