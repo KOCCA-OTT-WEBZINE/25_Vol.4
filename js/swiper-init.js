@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       sectionName: "글로벌 마켓 리포트",
       theme: "",
-      item: "콘텐츠로 글로벌 일류(日流) 꿈꾸는 일본, 새로운 ‘쿨 재팬’ 전략",
+      item: "콘텐츠로 글로벌 일류(日流) 꿈꾸는 일본,<br>새로운 ‘쿨 재팬’ 전략",
       img: "./img/manuscript7/banner.png",
       imgMobile: "./img/manuscript7/banner-m.png",
       bgPosition: "right center",
@@ -79,8 +79,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   new Swiper(".main-banner-swiper", {
-    loop: true,
-    autoplay: { delay: 3000 },
+    // loop: true,
+    // autoplay: { delay: 3000 },
     pagination: {
       el: ".main-banner-swiper .swiper-pagination",
       clickable: true,
@@ -111,10 +111,10 @@ document.addEventListener("DOMContentLoaded", () => {
         slideToClickedSlide: false,
         grabCursor: true,
         loop: slideCount >= 3,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
+        // autoplay: {
+        //   delay: 3000,
+        //   disableOnInteraction: false,
+        // },
         navigation: {
           nextEl,
           prevEl,
